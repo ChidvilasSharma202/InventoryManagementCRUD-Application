@@ -91,4 +91,8 @@ app.get('/printstock',(req,res)=>{
             res.render('stock-print.ejs',{stock: result})
         })
     }) 
+    app.get('/sales',(req,res)=>{
+        res.render("sales.ejs")
+    })
+
 
